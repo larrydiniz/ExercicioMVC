@@ -1,10 +1,10 @@
 # ExercicioMVC
 O exercício foi desenvolvido com base no código de um banco de dados de uma loja online, desenvolvido em aula.
 
-##Database code
-CREATE DATABASE dh_loja_online;
+## Database code
+*CREATE DATABASE dh_loja_online;
 
-USE dh_loja_online;
+*USE dh_loja_online;
 
 CREATE TABLE cliente (
 	id_cliente INT PRIMARY KEY AUTO_INCREMENT,
@@ -61,4 +61,4 @@ CREATE TABLE produto_pedido(
     FOREIGN KEY (fk_cod_produto) REFERENCES produto(cod_produto)
 );
 
-ALTER TABLE cliente ADD COLUMN data_nascimento DATE;
+ALTER TABLE cliente ADD COLUMN data_nascimento DATE;*
